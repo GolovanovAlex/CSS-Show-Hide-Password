@@ -1,5 +1,5 @@
-let password = document.getElementById('password');
-let togglePassword = document.querySelector('.input__icon');
+const password = document.getElementById('password');
+const togglePassword = document.querySelector('.input__icon');
 
 function showHide() {
   if (password.type === 'password') {
